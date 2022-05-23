@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>BUY COINS FOR TIKTOK</title>
+</head>
+<body>
+    <h1 style="text-align: center; font-size: 35px; font-weight: 600;">TIK TOK BUY COINS</h1>
+    <p style="text-align: center; font-size: 20px; font-weight: 500;">Ju lutem shenoni shumen Sa koinsa doni te bleni Vetem numer <br>
+    kjo Vlen per mbushesin e dergimeve te koinsave. 
+    </p>
+    <br>
+    <br>
+    <br>
+<div class="buyer">
+    <form method="post" name="no">
+        <input name="s" type="number" placeholder="How Much coins Do you want to buy"><br><br>
+    </form>
+</div>
+<div class="zgejt">
+
+<h1 style="text-align: center; font-size: 35px; font-weight: 600;">Zgjedh Formen si doni te paguani</h1>
+
+<div class="t">
+    <button onclick="alert('Ju jeni lidhur tashme ne llogari vetem shtypni Blej tani')">Pay Pal</button>
+    <button onclick="alert('Ju jeni lidhur tashme ne llogari vetem shtypni Blej tani')">Apple Pay</button>
+    <button onclick="alert('Ju jeni lidhur tashme ne llogari vetem shtypni Blej tani')">Microsoft Pay</button>
+    <button onclick="prompt('Shenoni Numrin e Karteles se Kreditit')">Credit</button>
+    <br>
+    <br>
+    <button  onclick="return re()" value="buy" style="border-radius: 10px;">Blej Tani</button>
+
+
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1 id="ju"></h1>
+<script>
+    function re(){
+     let x = document.forms['no']['s'].value;
+
+     if(x == "" | x == null){
+        document.getElementById('ju').innerHTML = "Ju lutem Mbusheni llogarin "
+        
+     }
+     else{
+        document.getElementById('ju').innerHTML = "Ju keni Mbushur Llogarin tuaj dhe keni " + x + " coins me shum ne llogari" + "<p style='color:red;'>Dhe llogaria juaj e pageses eshte ulur ne -800€</p>"
+     }
+     return false;
+
+    }
+</script>
+</div>
+</div>
+</body>
+</html>
+<footer style=" bottom: 0px; display: flex; justify-content: center;"><p style="position: absolute; bottom: 0px; color: rgb(5, 5, 5) ; font-size: 17px;">Powerd By Tubify© </p></footer>
+
+<style>
+    .buyer{
+        text-align: center;
+    }
+.buyer form{
+    display: flexbox;
+    justify-content: center;
+
+    
+}
+.zgejt{
+    text-align: center;
+}
+.zgejt button{
+    width: 4cm;
+    height: 40px;
+    background: rgba(80, 16, 80, 0.432);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Poppins';
+    grid-gap: 50px;
+    margin-bottom: 10px;
+    border: thick;
+}
+.zgejt button:hover{
+    background: rgba(255, 0, 0, 0.288);
+}
+.buyer button{
+    width: 4cm;
+    height: 40px;
+    background: rgba(128, 0, 128, 0.336);
+    outline: none;
+    border-radius: 5px;
+    border: thick;
+    color: white;
+    transition: 0.5s;
+    font-family: 'Poppins',sans-serif;
+}
+.buyer button:hover{
+    background: rgba(221, 160, 221, 0.377);
+}
+.buyer input::placeholder{
+    font-size: 15px;
+    color: rgba(24, 11, 11, 0.377);
+}
+.buyer input{
+    width: 8cm;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid purple;
+    color: white;
+    font-size: 20px;
+    background: rgba(128, 0, 128, 0.288);
+}
+    html{
+        font-family: 'Poppins', sans-serif;
+        background: rgb(34,75,195);
+        background-repeat: nore;
+    }
+</style>
